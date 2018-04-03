@@ -42,4 +42,22 @@
 * Has basis and induction step
 * Goal is to prove P(1) is true for every K in some property P
 * Basis proves that P(1) is true
-* Induction step proves that for each i ≥ 1, if P(i) is true, then so is P(i+ 1)
+* Induction step proves that for each i ≥ 1, if P(i) is true, then so is P(i + 1)
+## 1.1 Finite Automata
+* Finite automata and their probabilistic counterpart Markov chains are useful tools when we are attempting to recognize patterns in data. These devices are used in speech processing and in optical character recognition.
+* A finite automaton is a 5-tuple (Q, Σ, δ, q<sub>0</sub>, F), where
+   1. Q is a finite set called the states,
+   2. Σ is a finite set called the alphabet,
+   3. δ : Q × Σ→Q is the transition function,
+   4. q<sub>0</sub> ∈ Q is the start state, and
+   5. F ⊆ Q is the set of accept states.
+* The transition function, δ, defines the rules for moving. If the finite automaton has an arrow from a state x to a state y labeled with the input symbol 1, thatmeans that if the automaton is in state x when it reads a 1, it then moves to state y. We can indicate the same thing with the transition function by saying that δ(x, 1) = y
+* If A is the set of strings machine M accepts, A is the language of machine M, written as L(M) = A. We say that M recognizes A or M accepts A
+* A machine may accept several strings, but it always recognizes only one language. If the machine accepts no strings, it still recognizes one language— namely, the empty language ∅
+### Formal Definition of Computation
+* Let M = (Q, Σ, δ, q<sub>0</sub>, F) be a finite automaton and let w = w<sub>1</sub>w<sub>2</sub> ... w<sub>n</sub> be a string where each w<sub>i</sub> is a member of the alphabet Σ. Then M accepts w if a sequence of states r<sub>0</sub>, r<sub>1</sub>, ... , r<sub>n</sub> in Q exists with three conditions:
+  1. r<sub>0</sub> = q<sub>0</sub>,
+  2. δ(r<sub>i</sub>, w<sub>i</sub>+1) = ri+1, for i = 0, ... , n − 1, and
+  3. r<sub>n</sub> ∈ F.
+* We say that M recognizes language A if A = {w| M accepts w}
+* A language is called a *regular language* if some finite automaton recognizes it
