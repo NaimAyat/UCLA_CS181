@@ -9,7 +9,8 @@
 * Informal intro to automata theory
 * Math foundations
 ## Course Overview
-* Deterministic finite automaton (DFA)
-* Deterministic pushdown automaton (DPDA)
-* Pushdown automaton (PDA)
-* Turing Machine (TM)
+* In order from least to greatest expressive power and greatest to least predictability:
+  * Deterministic finite automaton (DFA)
+  * Deterministic pushdown automaton (DPDA)
+  * Pushdown automaton (PDA)
+  * Turing Machine (TM)
