@@ -26,9 +26,10 @@
 * Ordered pairs
 * Cartesian product: x
   * R x S x T ≠ R x (S x T) ≠ (R x S) x T
-* Graps: (V, E)
+* Graphs: (V, E)
   * Verticies, edges
   * Undirected, directed
   * Labeled directed
   * Cyclic, acyclic
   * Rooted trees: (V, E, r) where r ∈ V
+* Transitive closure: generalization of a path. Given a directed graph, find out if a vertex j is reachable from another vertex i for all vertex pairs (i, j) in the given graph. Asking "what is the transitive closure of node A?" is equivalent to asking "what is the set of nodes that can be reached by node A?"
