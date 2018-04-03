@@ -61,3 +61,8 @@
   3. r<sub>n</sub> ∈ F.
 * We say that M recognizes language A if A = {w| M accepts w}
 * A language is called a *regular language* if some finite automaton recognizes it
+### The Regular Operations
+* Let A and B be languages. We define the regular operations union, concatenation, and star as follows:
+  * Union: A ∪ B = {x| x ∈ A or x ∈ B}.
+  * Concatenation: A ◦ B = {xy| x ∈ A and y ∈ B}.
+  * Star: A* = {x<sub>1</sub>2<sub>i</sub> ... x<sub>k</sub>| k ≥ 0 and each x<sub>i</sub> ∈ A}.
