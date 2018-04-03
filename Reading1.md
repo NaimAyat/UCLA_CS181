@@ -65,4 +65,12 @@
 * Let A and B be languages. We define the regular operations union, concatenation, and star as follows:
   * Union: A ∪ B = {x| x ∈ A or x ∈ B}.
   * Concatenation: A ◦ B = {xy| x ∈ A and y ∈ B}.
-  * Star: A* = {x<sub>1</sub>2<sub>i</sub> ... x<sub>k</sub>| k ≥ 0 and each x<sub>i</sub> ∈ A}.
+  * Star: A* = {x<sub>1</sub>2<sub>i</sub> ... x<sub>k</sub>| k ≥ 0 and each x<sub>i</sub> ∈ A}. 
+    * Attach any number of strings in A together to get a string in the new language
+## 1.4 Nonregular Languages
+### The Pumping Lemma for Regular Languages
+* All regular languages have a special property: all strings in the language can be “pumped” if they are at least as long as a certain special value, called the pumping length. That means each such string contains a section that can be repeated any number of times with the resulting string remaining in the language.
+* Pumping Lemma: If A is a regular language, then there is a number p (the pumping length) where if s is any string in A of length at least p, then s may be divided into three pieces, s = xyz, satisfying the following conditions:
+  1. for each i ≥ 0, xy<sup>i</sup>z ∈ A,
+  2. |y| > 0, and
+  3. |xy| ≤ p.
