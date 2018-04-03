@@ -33,3 +33,9 @@
   * Cyclic, acyclic
   * Rooted trees: (V, E, r) where r ∈ V
 * Transitive closure: generalization of a path. Given a directed graph, find out if a vertex j is reachable from another vertex i for all vertex pairs (i, j) in the given graph. Asking "what is the transitive closure of node A?" is equivalent to asking "what is the set of nodes that can be reached by node A?"
+* What is a computer?
+  * Input, output
+  * Memory state
+  * Execution
+  * Deterministic
+  * Program, set of instructions
