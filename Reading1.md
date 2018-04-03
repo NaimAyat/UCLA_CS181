@@ -26,3 +26,20 @@
 * A directed graph has arrows instead of lines, as shown in the following figure. The number of arrows pointing from a particular node is the outdegree of that node, and the number of arrows pointing to a particular node is the indegree.
 * A path in which all the arrows point in the same direction as its steps is called a directed path. A directed graph is strongly connected if a directed path connects every two nodes
 ### Strings and Languages
+* We define an alphabet to be any nonempty finite set. The members of the alphabet are the *symbols* of the alphabet
+* We generally use capital Greek letters Σ and Γ to designate alphabets and a typewriter font for symbols from an alphabet
+  * Example alphabet: Γ = {0, 1, x, y, z}
+* A string over an alphabet is a finite sequence of symbols from that alphabet, usually written next to one another and not separated by commas. If Σ = {0,1}, then 01001 is a string over Σ
+* If w is a string over Σ, the length of w, written |w|, is the number of symbols that it contains
+* The string of length zero is called the empty string and is written ε
+* Reverse of a string w is denoted as w<sup>r</sup>
+## 0.4 Types of Proof
+### Proof by Construction
+* Demonstrate how to construct the object
+### Proof by Contradiction
+* Assume that the theorem is false and then show that this assumption leads to an obviously false consequence, called a contradiction
+### Proof by Induction
+* Has basis and induction step
+* Goal is to prove P(1) is true for every K in some property P
+* Basis proves that P(1) is true
+* Induction step proves that for each i ≥ 1, if P(i) is true, then so is P(i+ 1)
