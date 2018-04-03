@@ -14,12 +14,12 @@
   * Deterministic pushdown automaton (DPDA)
   * Pushdown automaton (PDA)
   * Turing Machine (TM)
-## Sets
+## Terminology
 * ∪
 * ∩
 * s̅ ("s bar" with respect to some universal set)
-* s-t (set difference)
-* 2<sup>s</sup> or 𝒫(s) (power set)
+* S-T (set difference)
+* 2<sup>S</sup> or 𝒫(S) (power set)
 * Cardinality, finite, infinite
   * Infinite: countable or uncountable?
 * Relationships: =, ≠, ⊆, ⊂, ⊄
@@ -31,3 +31,4 @@
   * Undirected, directed
   * Labeled directed
   * Cyclic, acyclic
+  * Rooted trees: (V, E, r) where r ∈ V
