@@ -36,6 +36,7 @@
 * What is a computer?
   * Input, output
   * Memory state
+    * Well-defined initial state
   * Execution
   * Deterministic
   * Program, set of instructions
