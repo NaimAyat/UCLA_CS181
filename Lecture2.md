@@ -30,6 +30,6 @@
   * Substring ≡ s is a substring of w
   * Prefix ≡ r is a prefix of w, rs is a prefix of w, rst is a prefix of w (but not a proper prefix)
   * Suffix ≡ t is a suffix of w, st is a suffix of w, rst is a suffix of w (but not a proper suffix)
-  * Proper substring / prefix / suffix: not the entire string
-* ε is a prefix, suffix, and substring of every string over any alphabet ∑
+  * Proper substring/prefix/suffix: not the entire string
+* ε is a prefix/suffix/substring of every string over any alphabet ∑
   * ε is a prefix/suffix/substring of itself, but is not a proper prefix/suffix/substring of itself
