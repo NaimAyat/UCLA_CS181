@@ -27,6 +27,6 @@
 * Note: concatenating the empty string with a word simply returns the word
 * Assume we have string w = rst
   * Substring ≡ s is a substring of w
-  * Prefix ≡ r is a prefix of w
-  * Suffix ≡ t is a suffix of w
+  * Prefix ≡ r is a prefix of w, rs is a prefix of w, rst is a prefix of w (but not a proper prefix)
+  * Suffix ≡ t is a suffix of w, st is a suffix of w, rst is a suffix of w (but not a proper suffix)
   * Proper substring / prefix / suffix: not the entire string
