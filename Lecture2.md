@@ -25,6 +25,7 @@
 * String ≡ word ≡ sequence of zero or more symbols from an alphabet ∑
   * Word w over alphabet ∑ ≡ concatenation of symbols from ∑: w = a<sub>1</sub> • a<sub>2</sub> • ... • a<sub>i</sub> for some i ≥ 0 each a<sub>j</sub>∈∑ 1≤j≤i.
 * Note: concatenating the empty string with a word simply returns the word
+* Note: strings must be finite
 * Assume we have string w = rst
   * Substring ≡ s is a substring of w
   * Prefix ≡ r is a prefix of w, rs is a prefix of w, rst is a prefix of w (but not a proper prefix)
