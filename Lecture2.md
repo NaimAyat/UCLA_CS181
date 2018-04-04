@@ -33,4 +33,5 @@
   * Proper substring/prefix/suffix: not the entire string
 * ε is a prefix/suffix/substring of every string over any alphabet ∑
   * ε is a prefix/suffix/substring of itself, but is not a proper prefix/suffix/substring of itself
-* *Run*: consecutive sequence of the same character
+* *Run*: the entirety of a consecutive sequence of the same character
+  * Example: 11100001111 has three runs
