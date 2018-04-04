@@ -16,10 +16,11 @@
 * Math foundations: sets, Cartesian product
 * Graphs, rooted trees
 ## Strings
-* Alphabet ≡ any finite set of symbols, except
+* Alphabet ≡ any finite set of symbols, except ε for the empty string
   * Example: binary alphabet is {0,1}
   * Subset of C alphabet: {for, if, while, int, ...}
     * Note that elements like "for" are treated as one symbol, so for<sup>R</sup> is still "for"
   * Alphabets can contain ordered pairs: {(0,1), a, b, 1, 3, 4}
     * Note that (0,1) is treated as a single symbol here
-* String ≡ word ≡ sequence of zero or more symbols from alphabet ∑
+* String ≡ word ≡ sequence of zero or more symbols from an alphabet ∑
+  * Word w over alphabet ∑ ≡ concatenation of symbols from ∑: w = a<sub>1</sup> • a<sub>2</sup> • ... • a<sub>i</sup> for some i ≥ 0 each a<sub>j</sub>∈∑ 1≤j≤i.
