@@ -24,3 +24,4 @@
     * Note that (0,1) is treated as a single symbol here
 * String ≡ word ≡ sequence of zero or more symbols from an alphabet ∑
   * Word w over alphabet ∑ ≡ concatenation of symbols from ∑: w = a<sub>1</sub> • a<sub>2</sub> • ... • a<sub>i</sub> for some i ≥ 0 each a<sub>j</sub>∈∑ 1≤j≤i.
+* Concatenating the empty string with a word simply returns the word
