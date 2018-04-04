@@ -20,5 +20,5 @@
   * Example: binary alphabet is {0,1}
   * Subset of C alphabet: {for, if, while, int, ...}
   * Alphabets can contain ordered pairs: {(0,1), a, b, 1, 3, 4}
-    * Note that (0,1) is treated as a single element
+    * Note that (0,1) is treated as a single element here
 * String ≡ 
