@@ -22,4 +22,4 @@
     * Note that elements like "for" are treated as one symbol, so for<sup>R</sup> is still "for"
   * Alphabets can contain ordered pairs: {(0,1), a, b, 1, 3, 4}
     * Note that (0,1) is treated as a single symbol here
-* String ≡ word ≡ sequence of zero or more symbols from alphabet
+* String ≡ word ≡ sequence of zero or more symbols from alphabet ∑
