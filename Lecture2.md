@@ -19,4 +19,6 @@
 * Alphabet ≡ any finite set of symbols, except
   * Example: binary alphabet is {0,1}
   * Subset of C alphabet: {for, if, while, int, ...}
-* String ≡ an
+  * Alphabets can contain ordered pairs: {(0,1), a, b, 1, 3, 4}
+    * Note that (0,1) is treated as a single element
+* String ≡ 
