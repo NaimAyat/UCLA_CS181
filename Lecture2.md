@@ -38,7 +38,7 @@
 * Language ≡ any set of strings (words) over ∑
   * Example: {all even length strings}
 ## Finite State Machines
-* [Example 1](images/april4-1.PNG)
+* [Example deterministic finite automaton (DFA)](images/april4-1.PNG)
   * Accepting state: double circle
   * String read one at a time, no going back. For example, a string of length 5 needs 5 movements
 * If the move is not defined, we say the machine blocks
