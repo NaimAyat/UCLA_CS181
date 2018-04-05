@@ -35,3 +35,5 @@
   * ε is a prefix/suffix/substring of itself, but is not a proper prefix/suffix/substring of itself
 * *Run*: the entirety of a consecutive sequence of the same character
   * Example: 11100001111 has three runs
+* Language ≡ any set of strings (words) over ∑
+  * Example: {all even length strings}
