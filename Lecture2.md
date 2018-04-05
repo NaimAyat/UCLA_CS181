@@ -42,3 +42,6 @@
   * Accepting state: double circle
   * String read one at a time, no going back. For example, a string of length 5 needs 5 movements
 * If the move is not defined, we say the machine blocks
+* Example: 
+  * ∑ ≡ {a,b}
+  * L ≡ {w| in every prefix of w, the number of "a"s and the number of "b"s differ at most by 2}
