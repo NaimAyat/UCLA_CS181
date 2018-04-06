@@ -23,4 +23,4 @@
 ## Language Concatenation
 * All accepting states of L<sub>1</sub> transition to start state of L<sub>2</sub>, keep L<sub>2</sub> accepting states
   1. Transition on t if you have an NFA; have to use an NFA
-  2. Otherwise, you need to double the number of states in the worst case
+  2. Otherwise, you need to multiply the number of states in the worst case
