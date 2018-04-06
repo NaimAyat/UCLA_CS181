@@ -17,4 +17,7 @@
 
   ![DFA 2](images/disc1-2.PNG)
 ## Transition Functions
+* Denoted by δ(current state, input), returns next state
 * [Example](https://qph.fs.quoracdn.net/main-qimg-20ed869770b369d15eb8365220016858)
+  * δ(q<sub>1</sub>, 1) = q<sub>2</sub>
+  
