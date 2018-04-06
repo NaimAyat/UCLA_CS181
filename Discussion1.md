@@ -13,4 +13,4 @@
   ![DFA 1](images/disc1-1.PNG)
 * Example for Σ = {0,1}; L = {w| no two consecutive 0s and ends with a 1}
 
-  ![DFA 2](images/disc2-2.PNG)
+  ![DFA 2](images/disc1-2.PNG)
