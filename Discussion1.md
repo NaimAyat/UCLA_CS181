@@ -16,3 +16,5 @@
 * Example for Σ = {0,1}; L = {w| no two consecutive 0s and ends with a 1}
 
   ![DFA 2](images/disc1-2.PNG)
+## Transition Functions
+* [Example](https://qph.fs.quoracdn.net/main-qimg-20ed869770b369d15eb8365220016858)
