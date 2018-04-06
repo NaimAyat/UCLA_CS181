@@ -23,4 +23,4 @@
 ## Language Concatenation
 * All accepting states of L<sub>1</sub> transition to start state of L<sub>2</sub>, keep L<sub>2</sub> accepting states
   1. Transition on t if you have an NFA
-  2. If  must have a DFA then: every transition from start in L<sub>2</sub> is copied to every former accepting state in L<sub>1</sub>
+  2. If  must have a DFA, then: every transition from start in L<sub>2</sub> is copied to every former accepting state in L<sub>1</sub>
