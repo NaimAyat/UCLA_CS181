@@ -7,3 +7,5 @@
 * M = DFA
 * L(M) describes language accepted by machine
 * L = {w| predicate over w} ∈ Σ*
+## DFA
+* Example: Σ = {0,1}; L = {w| all strings that end in 01}
