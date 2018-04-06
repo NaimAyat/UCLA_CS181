@@ -19,5 +19,6 @@
 ## Transition Functions
 * Denoted by δ(current state, input), returns next state
 * [Example](https://qph.fs.quoracdn.net/main-qimg-20ed869770b369d15eb8365220016858)
-  * δ(q<sub>1</sub>, 1) = q<sub>2</sub>
-  
+  * δ(q<sub>2</sub>, 1) = q<sub>3</sub>
+## Language Concatenation
+* All accepting states of L<sub>1</sub> transition to start state of L<sub>2</sub>, keep L<sub>2</sub> accepting states
