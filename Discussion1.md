@@ -9,4 +9,5 @@
 * L = {w| predicate over w} ∈ Σ*
 ## DFA
 * Example for Σ = {0,1}; L = {w| all strings that end in 01} 
+
 ![Example for Σ = {0,1}; L = {w| all strings that end in 01}](images/disc1-1.PNG)
