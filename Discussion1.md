@@ -7,6 +7,8 @@
 * M = DFA
 * L(M) describes language accepted by machine
 * L = {w| predicate over w} ∈ Σ*
+* Σ* zero or more elements of the set
+* Σ<sup>+</sup> one or more elements of the set
 ## DFA
 * Example for Σ = {0,1}; L = {w| all strings that end in 01} 
 
