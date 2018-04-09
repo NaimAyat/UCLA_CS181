@@ -22,6 +22,3 @@
   * L(M)
   * If L is a finite state language (FSL), is ~L (Σ* - L) always an FSL? 
   * ~M = (Q, Σ, δ, q<sub>0</sub>, (Q-F))
-* L = { w | in every prefix of w, the number of "a"s and the number of "b"s are less than or equal to two }
-
-![Example](images/april4-2.PNG)
