@@ -25,6 +25,6 @@
 ## Closure PRoperties
 * L<sub>1</sub> • L<sub>2</sub>
 * L<sub>1</sub> ∪ L<sub>2</sub>
-* L<sub>1</sub>* and L<sub>1</sub><sup>+</sup>
+* L<sub>1</sub>* and L<sub>1</sub><sup>+</sup> (Kleene star and Kleene plus)
 * L<sub>1</sub> ∩ L<sub>2</sub>
 * L<sub>1</sub><sup>R</sup>
