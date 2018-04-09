@@ -13,7 +13,7 @@
     * δ(q, a) = q'. In state q on input a, go to state q'. Each move consumes one input symbol a.
 ## Language Concatenation
 * Σ* indicates "all strings over Σ"
-* Σ<sup>+</sup> indicates all strings o 
+* Σ<sup>+</sup> "sequences of strings of length one or more over Σ (cannot just be empty string)"
 * L<sub>1</sub> • L<sub>2</sub> = { xy | x ∈ L, & y ∈ L<sub>2</sub>}
   * L<sup>0</sup> = {ε}
   * L<sup>1</sup> = L
