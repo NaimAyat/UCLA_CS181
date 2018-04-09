@@ -22,3 +22,9 @@
   * L(M)
   * If L is a finite state language (FSL), is ~L (Σ* - L) always an FSL? 
   * ~M = (Q, Σ, δ, q<sub>0</sub>, (Q-F))
+## Closure PRoperties
+* L<sub>1</sub> • L<sub>2</sub>
+* L<sub>1</sub> ∪ L<sub>2</sub>
+* L<sub>1</sub>* and L<sub>1</sub><sup>+</sup>
+* L<sub>1</sub> ∩ L<sub>2</sub>
+* L<sub>1</sub><sup>R</sup>
