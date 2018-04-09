@@ -20,5 +20,5 @@
     * δ(q, a) = q'. In state q on input a, go to state q'. Each move consumes one input symbol a.
 * M = (Q, Σ, δ, q<sub>0</sub>, F) 
   * L(M)
-  * If L is a finite state language (FSL), is ~L (Σ* - L) always a finite state automaton? 
+  * If L is a finite state language (FSL), is ~L (Σ* - L) always an FSL? 
   * ~M = (Q, Σ, δ, q<sub>0</sub>, (Q-F))
