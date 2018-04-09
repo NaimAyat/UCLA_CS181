@@ -11,4 +11,10 @@
   * F ⊆ Q = the accepting state(s)
   * δ: Qx Σ → Q
     * δ(q, a) = q'. In state q on input a, go to state q'. Each move consumes one input symbol a.
-    
+## Language Concatenation
+* Σ* indicates "all strings over Σ"
+* Σ<sup>+</sup> indicates all strings o 
+* L<sub>1</sub> • L<sub>2</sub> = { xy | x ∈ L, & y ∈ L<sub>2</sub>}
+  * L<sup>0</sup> = {ε}
+  * L<sup>1</sup> = L
+  * L<sup>n</sup> = L•L<sup>n-1</sup> n≥1 
