@@ -39,6 +39,7 @@
   * Example: {all even length strings}
 ## Finite State Machines
 * Example deterministic finite automaton (DFA)
+
   ![Example deterministic finite automaton (DFA)](images/april4-1.PNG)
   * Accepting state: double circle
   * String read one at a time, no going back. For example, a string of length 5 needs 5 movements
@@ -46,4 +47,5 @@
 * Example: 
   * ∑ ≡ {a,b}
   * L ≡ {w| in every prefix of w, the number of "a"s and the number of "b"s differ at most by 2}
-  * ![DFA](images/april4-2.PNG)
+    
+    ![DFA](images/april4-2.PNG)
