@@ -22,7 +22,7 @@
   * L(M)
   * If L is a finite state language (FSL), is ~L (Σ* - L) always an FSL? 
   * ~M = (Q, Σ, δ, q<sub>0</sub>, (Q-F))
-## Closure PRoperties
+## Closure Properties
 * L<sub>1</sub> • L<sub>2</sub>
 * L<sub>1</sub> ∪ L<sub>2</sub>
 * L<sub>1</sub>* and L<sub>1</sub><sup>+</sup> (Kleene star and Kleene plus)
