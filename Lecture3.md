@@ -29,3 +29,5 @@
 * L<sub>1</sub> ∩ L<sub>2</sub>
 * L<sub>1</sub><sup>R</sup>
 * Homomorphism: any function h: Σ → Σ*
+  * Ex: h(a) = ε, h(b) = ε
+    * h(aaabbb) = εεεεεε = ε
