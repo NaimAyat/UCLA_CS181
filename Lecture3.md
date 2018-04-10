@@ -22,13 +22,13 @@
   * L(M)
   * If L is a finite state language (FSL), is ~L (Σ* - L) always an FSL? 
   * ~M = (Q, Σ, δ, q<sub>0</sub>, (Q-F))
-## Closure Properties
+## Closure Properties of Finite State Languages
 * L<sub>1</sub> • L<sub>2</sub>
 * L<sub>1</sub> ∪ L<sub>2</sub>
 * L<sub>1</sub>* and L<sub>1</sub><sup>+</sup> (Kleene star and Kleene plus)
 * L<sub>1</sub> ∩ L<sub>2</sub>
 * L<sub>1</sub><sup>R</sup>
-* Homomorphism: any function h: Σ → Σ*
+* Homomorphisms: any function h: Σ → Σ*
   * Ex: for the language L = { w | x y; x = a<sup>n</sup>; y = b<sup>n</sup>; n ≥ 0} 
     * h(a) = ε, h(b) = ε
       * h(aaabbb) = εεεεεε = ε
