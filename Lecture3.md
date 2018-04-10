@@ -29,5 +29,8 @@
 * L<sub>1</sub> ∩ L<sub>2</sub>
 * L<sub>1</sub><sup>R</sup>
 * Homomorphism: any function h: Σ → Σ*
-  * Ex: h(a) = ε, h(b) = ε
-    * h(aaabbb) = εεεεεε = ε
+  * Ex: for the language L = { w | x y; x = a<sup>n</sup> ; y = b<sup>n</sup> n ≥ 0} 
+    * h(a) = ε, h(b) = ε
+      * h(aaabbb) = εεεεεε = ε
+    * h(a) = a, h(b) = a
+      * h(L) = {a<sup>2n</sup>}
