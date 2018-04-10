@@ -39,3 +39,6 @@
 * Concatenation: a • denotes {ab}
 * Union: {a+b} denotes {a} ∪ {b}
 * Repetition: a* = {a}*
+## Nondeterministic Finite Automata
+* Can be multiple transitions from the same state for the same symbol
+* An NFA is said to accept a string if at least one possible path for the string ends at an accepting state
