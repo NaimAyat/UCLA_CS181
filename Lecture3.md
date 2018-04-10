@@ -34,3 +34,8 @@
       * h(aaabbb) = εεεεεε = ε
     * h(a) = a, h(b) = a
       * h(L) = {a<sup>2n</sup>}
+## Regular Operations
+* ε is a regular expression representing the set consisting of the empty set {ε}
+* Concatenation: a • denotes {ab}
+* Union: {a+b} denotes {a} ∪ {b}
+* Repetition: a* = {a}*
