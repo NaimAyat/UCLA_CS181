@@ -20,4 +20,6 @@
      * r*
 * Anything that's accepted by a DFA is a regular set; regular sets are equivalent to finite state languages
 ### Regular Expressions
-
+* r • s becomes rs
+* r ∪ s becomes r + s
+* r* becomes r*
