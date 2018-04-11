@@ -30,3 +30,5 @@
 * Example: primer number function
 * Compute the output as the OR of the required minterms
 * Useful to note: since the decoder is made with ANDs, we are building the sum-of-products
+## Encoder: Inverse of a Decoder
+* Logic module that convers one-hot input signal to a binary-encoded output signal
