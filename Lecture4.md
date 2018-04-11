@@ -20,3 +20,13 @@
   * K-map minimization: prime implicants, distinguished minterms, cover
   * Don't cares
   * Sum-of-products, product-of-sums
+## One-Hot Representation
+* N elements represented with N bits
+* Exactly one bit is set
+## Decoder
+* Decoder converts symbols from one encoding to another
+* Binary to one-hot decoder 
+### Implementing Arbitrary Logic Functions with Decoders
+* Example: primer number function
+* Compute the output as the OR of the required minterms
+* Useful to note: since the decoder is made with ANDs, we are building the sum-of-products
