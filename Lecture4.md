@@ -6,4 +6,4 @@
 * Family of languages = set of languages
 * To get from alphabet to words, use concatenation operator •
 * To get from words to lanuages, form sets {}
-_____________________________________________
+* ____________________________________________
