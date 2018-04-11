@@ -23,3 +23,6 @@
 * r • s becomes rs
 * r ∪ s becomes r + s
 * r* becomes r*
+* Examples: 
+  * a\*b\* denotes a run of 0 or more "a"s followed by a run of 0 or more "b"s
+  * (a+b)* any string over the alphabet Σ = {a, b}; this is the same as Σ*
