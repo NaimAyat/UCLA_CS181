@@ -12,7 +12,7 @@
 * Basis: 
   * {}
   * {ε}
-  * {a<sub>i<sub>} ∀ 1≤n≤i
+  * {a<sub>i</sub>} ∀ 1≤n≤i
 * Inductive / Recursive: 
    * If r and s are regular sets, then so are
      * r • s
