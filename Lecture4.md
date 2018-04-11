@@ -7,4 +7,4 @@
 * To get from alphabet to words, use concatenation operator •
 * To get from words to lanuages, form sets {}
 * How do we specify which languages are in a family of languages?
-  * Set of all languages that can be recognized by a DFA 
+  * Set of all languages that can be recognized by a DFA = finite state languages (FSL)
