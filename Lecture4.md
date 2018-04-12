@@ -37,5 +37,6 @@
 ### Non-Finite State Languages
 * Example: 
   * Σ = { a, b , # }
-  * L = { x#y | x,y ∈(a+b)* & |x|=|y| }
-  * 
+  * L = { x#y | x,y ∈ (a+b)* & |x|=|y| }
+  * L is not a finite state language
+  * Proof by contradiction. Assume L is a FSL, then there must exist a machine M that accepts L. There is some number of states m in M. Let |Q| = m. Also, |x| > m + 1. By pigeonhole principle, to get from q<sub>0</sub> to the accepting state, at least two of the intermediate steps would have to be the same.
