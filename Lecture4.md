@@ -33,5 +33,5 @@
   * End(w) = { xw | x ∈ Σ* }
   * M(w) = (Q, Σ, δ, q<sub>0</sub>, F)
   
-    ![NFA](images/april11-1.PNG)
+    ![NFA](images/april11-1.png)
   
