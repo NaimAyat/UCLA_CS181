@@ -30,3 +30,4 @@
 ### Nondeterministic Finite Automata
 * Given an alphabet Σ and a word w ∈ Σ*, we define a language that ends with w, End(w).
   * End(w) = { xw | x ∈ Σ* }
+  * M(w) = (Q, Σ, δ, q<sub>0</sub>, F)
