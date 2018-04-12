@@ -27,3 +27,6 @@
   * a\*b\* denotes a run of 0 or more "a"s followed by a run of 0 or more "b"s
   * (a+b)* any string over the alphabet Σ = {a, b}; this is the same as Σ*
     * Note: Σ* denotes all strings over an alphabet
+### Nondeterministic Finite Automata
+* Given an alphabet Σ and a word w ∈ Σ*, we define a language that ends with w, End(w).
+  * End(w) = { xw | x ∈ Σ* }
