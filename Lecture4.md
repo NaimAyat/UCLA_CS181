@@ -34,4 +34,8 @@
   * M(w) = (Q, Σ, δ, q<sub>0</sub>, F)
   
     ![NFA](images/april11-1.png)
-  
+### Non-Finite State Languages
+* Example: 
+  * Σ = { a, b , # }
+  * L = { x#y | x,y ∈(a+b)* & |x|=|y| }
+  * 
