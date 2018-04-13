@@ -18,11 +18,14 @@
     * Inductive in other words: Prove that δ(q,a) will always yield q. Prove that Σ* can always be split into ax, where x is a smaller string.
 ## Prove Language is not Regular
 ### Using Closed Operations
-* Proof by contradiction: 
-  * Use fact that a<sup>n</sup>b<sup>n</sup> is irregular
-  * Example: prove a<sup>m</sup>a<sup>n</sup> m≠n is irregular
-    1. Assume it is regular
-    2. Apply a closed operation to reach a<sup>n</sup>b<sup>n</sup>
-    * Start at a<sup>m</sup>b<sup>n</sup> m≠n
-    * Apply complement to get a<sup>m</sup>b<sup>n</sup> m=n
-      * Hence we yield a<sup>n</sup>b<sup>n</sup>, a known irregular language
+#### Proof by contradiction: 
+* Use fact that a<sup>n</sup>b<sup>n</sup> is irregular
+* Example: prove a<sup>m</sup>a<sup>n</sup> m≠n is irregular
+  1. Assume it is regular
+  2. Apply a closed operation to reach a<sup>n</sup>b<sup>n</sup>
+  * Start at a<sup>m</sup>b<sup>n</sup> m≠n
+  * Apply complement to get a<sup>m</sup>b<sup>n</sup> m=n
+    * Hence, we yield a<sup>n</sup>b<sup>n</sup>, a known irregular language
+* Example: { w | {a,b}* and w has the same number of "a"s and "b"s }
+  * Intersect with a\*b\*
+  * The only language that satisfies this intersection is a<sup>n</sup>b<sup>n</sup>
