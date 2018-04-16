@@ -25,4 +25,4 @@
 * { a<sup>n</sup>ba<sup>n</sup> }
 * { x#y | x,y ∈ {a,b}* and |x|=|y| }
 * { ww | w ∈ Σ* }
-* {w | number of "a's = number of "b"s }
+* {w | number of "a"s = number of "b"s }
