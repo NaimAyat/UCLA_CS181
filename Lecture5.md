@@ -12,3 +12,6 @@
   * S ∩ T is a regular set
   * S<sup>R</sup> is a regular set (reverse)
   * h(S) is a regular set (homomorphism)
+* Σ = { a, b }. L = { w | number of "a"s is twice the number of "b"s } 
+  * Not finite state language (FSL)
+  
