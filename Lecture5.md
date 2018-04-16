@@ -26,3 +26,8 @@
 * { x#y | x,y ∈ {a,b}* and |x|=|y| }
 * { ww | w ∈ Σ* }
 * {w | number of "a"s = number of "b"s }
+### NFA
+* At every nondeterministic fork, N chooses one branch
+* Graph search
+* Graph unrolling
+* All possible computations in parallel
