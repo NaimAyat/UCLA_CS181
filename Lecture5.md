@@ -31,3 +31,9 @@
 * Graph search
 * Graph unrolling
 * All possible computations in parallel
+## Normal Forms
+* Of an NFA:
+  * One single accepting state q<sub>f</sub>
+  * No transitions into q<sub>0</sub>
+  * No transitions out of q<sub>f</sub>
+  * Fully defined, except as above
