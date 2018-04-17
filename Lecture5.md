@@ -37,3 +37,4 @@
   * No transitions into q<sub>0</sub>
   * No transitions out of q<sub>f</sub>
   * Fully defined, except as above
+* No ε moves
