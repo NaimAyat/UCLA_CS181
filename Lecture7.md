@@ -7,4 +7,3 @@
      * E: Q → 𝒫(Q)
      * E(q) = {r | there is a path q → r in N using only ε-moves}
   
-## Node and Mesh Analysis
