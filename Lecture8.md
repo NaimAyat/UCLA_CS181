@@ -10,4 +10,9 @@
   * ∃ xyz = w such that: ∀ i ≥ 0, xy<sup>i</sup>z ∈ L; |xy| ≤ p; |y| ≥ 1
 ### Example
 * Let L = { w ∈ Σ<sup>+</sup> | w contains balanced parentheses }, Σ = { (, ) }
-  * Proof of irregularity: let w = (<sup>p</sup>(<sup>p</sup>
+  * Proof of irregularity: let w = (<sup>p</sup>)<sup>p</sup>
+    * Cases for xyz:
+       1. |xy| = p
+         * x and y must consist completely of ( characters, while z must consist entirely of z characters
+         * Hence, w' = (<sup>|x|</sup>ε)<sup>|z|</sup> for i = 0 should be in L, which is a contradiction
+       2. |xy| < p
