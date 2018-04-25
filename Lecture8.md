@@ -10,4 +10,3 @@
   * ∃ xyz = w such that: ∀ i ≥ 0, xy<sup>i</sup>z ∈ L; |xy| ≤ p; |y| ≥ 1
 ### Example
 * Let L = { w ∈ Σ<sup>+</sup> | w contains balanced parentheses }, Σ = { (, ) }
-  * 
