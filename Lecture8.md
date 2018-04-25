@@ -14,5 +14,8 @@
     * Cases for xyz:
        1. |xy| = p
          * x and y must consist completely of ( characters, while z must consist entirely of z characters
-         * Hence, w' = (<sup>|x|</sup>ε)<sup>|z|</sup> for i = 0 should be in L, which is a contradiction
+         * Hence, w' = (<sup>|x|</sup>ε)<sup>|z|</sup> for i = 0 should be in L; we have reached a contradiction
        2. |xy| < p
+         * x and y must contain completely ( characters, while z must contain both ( and ) characters
+         * Hence, w = (<sup>|x+y|</sup>(<sup>n</sup>)<sup>p</sup> for some n. Therefore, w' = p - |x| - |y|. We have reached a contradiction
+         
