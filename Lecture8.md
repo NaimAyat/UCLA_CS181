@@ -7,4 +7,4 @@
 * For any FSL, L:
   * ∃ p such that 
   * ∀ w ∈ L and |w| ≥ p
-  * ∃ xyz = w such that: ∀ i ≥ 0 and xy<sup>i</sup> ∈ L
+  * ∃ xyz = w such that: ∀ i ≥ 0 and xy<sup>i</sup>z ∈ L
