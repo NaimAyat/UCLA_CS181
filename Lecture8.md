@@ -37,3 +37,6 @@
     ```
 * Left-most derivation of (())()():
   * S → SS → SSS → (S)SS → (())SS → (())()S → (())()()
+## Parse Tree vs. Derivation Tree
+* "Parse tree" implies starting at the string and working up to start symbol
+* "Derivation tree" implies starting at start symbol and working down to string
