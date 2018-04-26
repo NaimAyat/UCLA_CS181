@@ -24,6 +24,7 @@
   * Σ = alphabet, a.k.a. "terminals"
   * R = finite set of rewriting rules
   * S ∈ V = start variable
+* Ambigious grammar: more than one parse tree to generate the same string (or more than one left-most derivation, or more than one right-most derivation)
 ### Example
 * Balanced parentheses grammar: 
   * V = {S}
@@ -34,5 +35,5 @@
       S → (S)
       S → ()  }
     ```
-* Leftmost derivation of (())()():
+* Left-most derivation of (())()():
   * S → SS → SSS → (S)SS → (())SS → (())()S → (())()()
