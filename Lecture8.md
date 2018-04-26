@@ -34,3 +34,5 @@
       S → (S)
       S → ()  }
     ```
+* Leftmost derivation of (())()():
+  * S → SS → SSS → (S)SS → (())SS → (())()S → (())()()
