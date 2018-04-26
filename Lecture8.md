@@ -18,4 +18,19 @@
        2. |xy| < p
           * x and y must contain completely ( characters, while z must contain both ( and ) characters
           * Hence, w = (<sup>|x+y|</sup>(<sup>n</sup>)<sup>p</sup> for some n. Therefore, w' = p - |x| - |y|. We have reached a contradiction
-         
+## Contex-Free Grammars
+* G = ( V, Σ, R, S )
+  * V = finite set of variables
+  * Σ = alphabet, a.k.a. "terminals"
+  * R = finite set of rewriting rules
+  * S ∈ V = start variable
+### Example
+* Balanced parentheses grammar: 
+  * V = {S}
+  * Σ = { (, ) }
+  * R = 
+    ```
+    { S → SS
+      S → (S)
+      S → ()  }
+    ```
