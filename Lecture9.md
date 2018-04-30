@@ -2,5 +2,5 @@
 ## Sentential Form
 * G = (V, Σ, R, S)
   * S → α → ...
-    * (Σ ∪ V)*
+  * (Σ ∪ V)*
 * We say that G "generates" or "derives" as S → α → ...
