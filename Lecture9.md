@@ -4,3 +4,6 @@
   * S → α → ...
   * (Σ ∪ V)*
 * We say that G "generates" or "derives" as S → α → ...
+## Pumping Lemma Example
+* Σ = {0, 1}
+* Show {ww|w∈Σ*}. Choose: 0<sup>p</sup>1<sup>p</sup>0<sup>p</sup>1<sup>p</sup>
