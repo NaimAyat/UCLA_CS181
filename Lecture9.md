@@ -3,4 +3,4 @@
 * Laplace
   * Partial fraction
   * Complete response
-  * Node / Mesh
+  * Node / mesh
