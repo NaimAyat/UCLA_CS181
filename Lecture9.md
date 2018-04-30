@@ -1,6 +1,6 @@
 # Lecture 9: April 30, 2018
-## Today
-* Laplace
-  * Partial fraction
-  * Complete response
-  * Node / mesh
+## Sentential Form
+* G = (V, Σ, R, S)
+  * S → α → ...
+    * (Σ ∪ V)*
+* We say that G "generates" or "derives" as S → α → ...
