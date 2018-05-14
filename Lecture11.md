@@ -8,3 +8,5 @@
 * L = {ww} is not
   * L<sup>even</sup> = { xy | x ≠ y and |x| = |y| }
   * L<sup>c</sup> = L<sup>even</sup> ∪ { odd-length strings }
+* Prove L<sup>c</sup> is a context-free language CFL. 
+  1. Construct a simple DFA for odd-length strings (finite state languages are a subset of CFLs)
