@@ -13,4 +13,5 @@
 ## Pumping Lemma for CFLs
 * L CFL →	∃ p > 0 such that for all s ∈ L
   * |s| ≥ p
-  * s = uvxyz for all i ≥ 0 uv<sup>i</sup>xy<sup>i</sup>z ∈ L
+  * s = uvxyz, and for all i ≥ 0 uv<sup>i</sup>xy<sup>i</sup>z ∈ L
+  * At least one of |v| or |y| ≥ 0
