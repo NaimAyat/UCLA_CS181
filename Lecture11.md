@@ -10,3 +10,7 @@
   * L<sup>c</sup> = L<sup>even</sup> ∪ { odd-length strings }
 * Prove L<sup>c</sup> is a context-free language CFL. 
   1. Construct a simple DFA for odd-length strings (finite state languages are a subset of CFLs)
+## Pumping Lemma for CFLs
+* L CFL →	∃ p > 0 such that for all s ∈ L
+  * |s| ≥ p
+  * s = uvxyz for all i ≥ 0 uv<sup>i</sup>xy<sup>i</sup>z ∈ L
