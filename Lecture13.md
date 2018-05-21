@@ -13,3 +13,4 @@
     * R contains T → h
     * u ↣ v
     * If u = xhy and R contains T → h, then v = xTy
+* h is the "reducing string"
