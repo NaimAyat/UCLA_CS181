@@ -15,7 +15,7 @@
 * Finite state pumping lemma problem
 * Context-free pumping lemma problem
 * Construction of the intersection of two DFAs
-* Prove a language is context-free by constructing a PDA
+* Prove a language is context-free by constructing a PDA or CFG
 * Unforced handles
 * Relationship of CFGs, FSLs, etc.
 * Turing machine problems similar to last homework
