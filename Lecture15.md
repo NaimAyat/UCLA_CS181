@@ -16,3 +16,4 @@
 * Prove a language is context-free by constructing a PDA
 * Unforced handles
 * Relationship of CFGs, FSLs, etc.
+* Turing machine problems similar to last homework
