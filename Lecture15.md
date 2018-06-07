@@ -5,6 +5,8 @@
 * Chomsky-Turing hierarchy
 * Reductions
 * Complexity theory
+## Halting Problem
+* HALT<sub>TM</sub> takes a Turing machine and a string and asks if the machine halts when it is fed the string
 ## Misc Review 
 * If you need to prove something is NOT, use closure properties or pumping lemma
 ## Final Problems
