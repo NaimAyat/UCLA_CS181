@@ -5,6 +5,8 @@
 * Chomsky-Turing hierarchy
 * Reductions
 * Complexity theory
+## Misc Review 
+* If you need to prove something is NOT, use closure properties or pumping lemma
 ## Final Problems
 * Show something is finite state
   * Give more than one answer; the more answers you give the more points you get
