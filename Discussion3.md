@@ -4,11 +4,15 @@
 * If a language is inherently ambiguous, it must have a nondeterministic CFG and cannot have a DCFG
 ## Final Topics
 * Ambiguous grammars
+  * Grammar for which there exists a string that can have more than one leftmost derivation or parse tree
 * Unambiguous grammars
+  * Every valid string has a unique leftmost derivation or parse tree
 * Ambiguous languages
 * Unambiguous languages
 * Recursively enumerable language
+  * Halts on all strings that are part of the language, but may loop infinitely on strings that are not
 * Recursive language
+  * Halts on all strings that are part of the language and all strings that are not. Subset of recursively enumerable.
 * Pumping lemma for CFGs and FSLs
 * Construct a PDA
   * Describe the language modeled by a PDA
@@ -19,9 +23,9 @@
   * unambiguous deterministic grammar? Yes. One parse tree, one choice.
   * unambiguous nondeterministic grammar? Yes. One parse tree, two choices; one doesn't work.
 * Can you have an:
-  * ambiguous deterministic language? ?
-  * ambiguous nondeterministic language? ?. 
-  * unambiguous deterministic language? ?
-  * unambiguous nondeterministic language? ?
+  * ambiguous deterministic language? No. There is a DPDA, meaning there must be an unambiguous grammar.
+  * ambiguous nondeterministic language? Yes. There is no DPDA, meaning there can be an ambiguous grammar.
+  * unambiguous deterministic language? Yes. There is a DPDA, meaning there must be an unambiguous grammar.
+  * unambiguous nondeterministic language? Yes. 
 * If you have an inherently ambiguous language, it must have an ambiguous grammar
 * Ambiguity: # of parse trees you can have; Determinism: number of choices you have
