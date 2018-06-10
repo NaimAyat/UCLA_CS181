@@ -29,3 +29,7 @@
   * unambiguous nondeterministic language? Yes. 
 * If you have an inherently ambiguous language, it must have an ambiguous grammar
 * Ambiguity: # of parse trees you can have; Determinism: number of choices you have
+## FSM
+* Recognizes FSLs
+## PDA
+* Recognizes CFGs
