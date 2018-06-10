@@ -18,7 +18,7 @@
   * Describe the language modeled by a PDA
 * Write CFGs for FSLs
 * Can you have an:
-  * ambiguous deterministic grammar? No. You can not come up with two parse trees for something if you have more than one choice.
+  * ambiguous deterministic grammar? No. You can not come up with two parse trees for something if you have only one choice.
   * ambiguous nondeterministic grammar? Yes. You can have two parse trees that are both correct.
   * unambiguous deterministic grammar? Yes. One parse tree, one choice.
   * unambiguous nondeterministic grammar? Yes. One parse tree, two choices; one doesn't work.
