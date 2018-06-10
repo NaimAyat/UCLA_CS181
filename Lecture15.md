@@ -16,7 +16,7 @@
 * Determine whether languages are deterministic/nondeterministic CFGs
 * Finite state pumping lemma problem
 * Context-free pumping lemma problem
-* Construction of the intersection of two DFAs
+* [Construction of the intersection of two DFAs](https://www.youtube.com/watch?v=WYmd2FxYkaI)
 * Prove a language is context-free by constructing a PDA or CFG
 * Unforced handles
 * Relationship of CFGs, FSLs, etc.
